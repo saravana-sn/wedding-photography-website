@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif helvatica;
+}
+
+/*heading*/
+header {
+  background-color: #303030;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: left;
+  padding: 20px;
+  border-bottom: 3px solid rgb(209, 117, 31);
+}
+.heading {
+  background-image: url(images\logo.png);
+  color: #dacda6;
+  font-weight: lighter;
+  font-size: 1.7em;
+  text-align: left;
+  float: left;
+}
+
+.nav-bar {
+  color: #e6e3d2;
+  text-align: center;
+  float: right;
+  padding-top: 10px;
+}
+
+.nav-bar {
+  color: #cb7209;
+}
+.nav-bar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(219, 231, 218);
+  font-size: 1.1em;
+}
+
+.nav-bar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar li {
+  display: inline;
+  padding: 0 15px 0 15px;
+}
+
+.nav-bar li :hover {
+  padding: 1.8em;
+  background-color: #f4f4f4;
+  color: #cb7209;
+}
+
+.nav-bar li :active {
+  padding: 1.8em;
+  background-color: #f4f4f4;
+  color: #cb7209;
+}
+
+/*showcase*/
+.showcase {
+  background-image: url(images/img11.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  background-attachment: fixed;
+
+  height: 100vh;
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.showcase .ptext {
+  border-bottom: 3px solid #e7ceb1;
+  border-top: 3px solid #e7ceb1;
+  border-width: 3px;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.showcase .ptext h1 {
+  color: #0c0e03;
+  letter-spacing: 0.75em;
+  text-align: center;
+}
+
+.showcase .ptext p {
+  letter-spacing: 0.2em;
+  color: #dacda6;
+  text-align: center;
+}
+
+.showcase .about {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+
+.showcase .about ul {
+  list-style: none;
+}
+.showcase .about li {
+  padding: 5px;
+}
+
+/*mid*/
+#mid {
+  background-color: #e7ceb1;
+  padding: 70px;
+  text-align: center;
+  color: #0c0e03;
+}
+
+#mid h1 {
+  font-size: 1.6em;
+}
+#mid p {
+  padding: 20px;
+}
+
+#mid a {
+  border: 1px #0c0e03 double;
+  padding: 4px;
+  text-decoration: none;
+  color: #0c0e03;
+}
+
+/*images*/
+#images ul {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  list-style: none;
+  color: white;
+}
+
+#images .one {
+  background-image: url(images/pic1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  opacity: 0.8;
+  min-height: 200px;
+  width: auto;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  opacity: 0.7em;
+  font-size: 1.8em;
+}
+
+#images .two {
+  background-image: url(images/pic2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  opacity: 0.8;
+  min-height: 200px;
+
+  display: grid;
+  align-items: center;
+  text-align: center;
+  font-size: 1.8em;
+  color: #000;
+}
+
+#images .two :hover {
+  width: 120%;
+}
+
+#images .three {
+  background-image: url(images/pic3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  opacity: 0.8;
+  min-height: 200px;
+  width: auto;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+#images .four {
+  background-image: url(images/pic4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  opacity: 0.8;
+  min-height: 200px;
+  width: auto;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 1.8em;
+}
+
+/*CONTACT*/
+
+#contact {
+  background-color: #222424;
+  text-align: center;
+}
+
+#contact h1 {
+  letter-spacing: 0.2em;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #cb7209;
+}
+
+#contact a {
+  color: white;
+  text-decoration: none;
+}
+
+#contact li {
+  padding-top: 17px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #dacda6;
+}
+
+#contact li :hover {
+  background-color: #dacda6;
+  color: #0c0e03;
+  padding: 1em;
+}
