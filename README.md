@@ -1,4 +1,4 @@
-# wedding-photography
+# wedding-photography-website
 
 <br>
 
